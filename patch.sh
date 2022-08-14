@@ -1,7 +1,7 @@
 #!/bin/sh
 AAA_USERS="/ciscosb-usergroup:users"
 name="C578G"
-password="$1$SpMm$eALjeyED.WSZs0naLNv22/"
+password="\$1\$SpMm\$eALjeyED.WSZs0naLNv22/"
 group="admin"
 changedtime="1632414797"
 confd_cmd -c \                                                                     
